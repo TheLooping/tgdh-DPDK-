@@ -1,0 +1,89 @@
+
+
+============================================================================
+============================================================================
+============================================================================
+[2024-03-21 15:03:34.558]max_size: 100, min_index: 0, max_index: -1, counts: 0[2024-03-21 15:03:37.299]packet type server.
+[2024-03-21 15:03:37.299]send 1 packet successfully
+[2024-03-21 15:03:37.299]udp:0 send to server, type: 0, tx_pkt_num:0
+[2024-03-21 15:03:37.299]1th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 15:03:37.299]                               0                                
+[2024-03-21 15:03:37.299]                                                                
+[2024-03-21 15:03:37.299]                                                                
+[2024-03-21 15:03:37.299]                                                                
+[2024-03-21 15:03:37.299]                                                                
+[2024-03-21 15:03:37.299]                                                                
+[2024-03-21 15:03:37.299]nodes BK[0]:CE7C1078E1C2C68092271ECFC96A7C08CB7960D68679014090D2DEBA967900E9C43B0CC694591C50C8FB62FDC3CBA91E7B9A55FBAFA07913C945C91A0D6BD939
+[2024-03-21 15:03:37.299]self_key:(0)86ACAC5EA5BE5B7D5AA894CF45246EB3E30D8A1036D69AA0E93C323F3068D565E7B6C4EC5E68BC36594A4B2E2AD3BD6F331F484E09FC12554A6BE8892CF8307C
+[2024-03-21 15:03:37.299]max_size: 100, min_index: 0, max_index: 1, counts: 2[2024-03-21 15:03:37.299]write key to file: 1
+[2024-03-21 15:03:37.299]Core 1 processDaemon
+[2024-03-21 15:03:37.300]Core 2 processPackets
+[2024-03-21 15:03:37.300]Forwarded non-IPv6 packet, eth_hdr->ether_type:cc88
+[2024-03-21 15:03:37.300]Forwarded non-IPv6 packet, eth_hdr->ether_type:cc88
+[2024-03-21 15:03:37.300]Forwarded non-IPv6 packet, eth_hdr->ether_type:cc88
+
+[2024-03-21 15:03:50.026]parsePacket1.
+[2024-03-21 15:03:50.026]Received UDP from port 8888 to 8888
+[2024-03-21 15:03:50.026]receive udp(rx_pkt_num:1 ;type:1): as the sponsor, receive a join quest
+[2024-03-21 15:03:50.047]send 1 packet successfully
+[2024-03-21 15:03:50.047]udp:1 send to 2, type: 3, port: 8888 , tx_pkt_num:1
+[2024-03-21 15:03:50.047]packet type server.
+[2024-03-21 15:03:50.047]send 1 packet successfully
+[2024-03-21 15:03:50.047]udp:1 send to server, type: 3, tx_pkt_num:2
+[2024-03-21 15:03:50.047]2th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 15:03:50.047]                               0                                
+[2024-03-21 15:03:50.047]               1                               2                
+[2024-03-21 15:03:50.047]                                                                
+[2024-03-21 15:03:50.047]                                                                
+[2024-03-21 15:03:50.047]                                                                
+[2024-03-21 15:03:50.047]                                                                
+[2024-03-21 15:03:50.047]nodes BK[0]:607E458D8B54CB18FCA195E2A7786016FAB1DC7A994A07EB0C3D5AF478024FB0940FE06FDB8FD11C291ED0D61645B80AA85906F9A3AE83272323928DF7EF510B
+[2024-03-21 15:03:50.047]nodes BK[1]:CE7C1078E1C2C68092271ECFC96A7C08CB7960D68679014090D2DEBA967900E9C43B0CC694591C50C8FB62FDC3CBA91E7B9A55FBAFA07913C945C91A0D6BD939
+[2024-03-21 15:03:50.047]nodes BK[2]:2F32C8D25E07B2B06061F52C270B798242B7EF53D2BD626BC6A119940CFAA70C41EBB0EE3455C4537706AF965AE5FDB39B80BC77D2959EBFB1D527D2685E5D13
+[2024-03-21 15:03:50.047]self_key:(1)86ACAC5EA5BE5B7D5AA894CF45246EB3E30D8A1036D69AA0E93C323F3068D565E7B6C4EC5E68BC36594A4B2E2AD3BD6F331F484E09FC12554A6BE8892CF8307C
+[2024-03-21 15:03:50.047]max_size: 100, min_index: 0, max_index: 2, counts: 3[2024-03-21 15:03:50.047]write key to file: 2
+[2024-03-21 15:03:53.921]Forwarded non-IPv6 packet, eth_hdr->ether_type:a788
+[2024-03-21 15:04:06.939]Forwarded non-IPv6 packet, eth_hdr->ether_type:cc88
+
+[2024-03-21 15:04:09.451]Received UDP from port 8888 to 8888
+[2024-03-21 15:04:09.451]parsePacket5.
+[2024-03-21 15:04:09.451]receive udp (rx_pkt_num:2 ;type:5): sponsor to all member, a node update its BK
+[2024-03-21 15:04:09.451]3th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 15:04:09.451]                               0                                
+[2024-03-21 15:04:09.451]               1                               2                
+[2024-03-21 15:04:09.451]                                                                
+[2024-03-21 15:04:09.452]                                                                
+[2024-03-21 15:04:09.452]                                                                
+[2024-03-21 15:04:09.452]                                                                
+[2024-03-21 15:04:09.452]nodes BK[0]:23F3ED3CB09144451EB8CE3EABE071C1F3886C5448A7788F5B2FBEF23C9464A6409F4AAE6334CB1BCFCDC9EBCF0C0FAE8B0A538371369CABC39E0358277163E7
+[2024-03-21 15:04:09.452]nodes BK[1]:CE7C1078E1C2C68092271ECFC96A7C08CB7960D68679014090D2DEBA967900E9C43B0CC694591C50C8FB62FDC3CBA91E7B9A55FBAFA07913C945C91A0D6BD939
+[2024-03-21 15:04:09.452]nodes BK[2]:6A7B78C360333BC3BA4801863F43F63F49E9693FD98E64F8EBAC9FF30DC81CA0809F6ACFBCADF750785FF0122D9FB4533D68C04BA1359B8E7FCDE97BD8165A70
+[2024-03-21 15:04:09.452]self_key:(1)86ACAC5EA5BE5B7D5AA894CF45246EB3E30D8A1036D69AA0E93C323F3068D565E7B6C4EC5E68BC36594A4B2E2AD3BD6F331F484E09FC12554A6BE8892CF8307C
+[2024-03-21 15:04:09.452]max_size: 100, min_index: 0, max_index: 3, counts: 4[2024-03-21 15:04:09.452]write key to file: 3
+
+
+[2024-03-21 15:04:19.438]update group key.
+[2024-03-21 15:04:19.439]4th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 15:04:19.439]                               0                                
+[2024-03-21 15:04:19.439]               1                               2                
+[2024-03-21 15:04:19.439]                                                                
+[2024-03-21 15:04:19.439]                                                                
+[2024-03-21 15:04:19.439]                                                                
+[2024-03-21 15:04:19.439]                                                                
+[2024-03-21 15:04:19.439]nodes BK[0]:4852AF97490CA5301CC91E8A034406BC1D79638B92417C42AA9ECC938D7B20EF11C4186483B11D8183FD4A7AB696502767A165184977BEF195BA72CE13A40CF6
+[2024-03-21 15:04:19.439]nodes BK[1]:769B6E9DF2C862062394CB9C760429387C1929507CE6618D3755051E92B01C8109EFA4AFB101BB53E4CCA5E46622E765EA51EA300A3FC201BDCE81E686A75074
+[2024-03-21 15:04:19.439]nodes BK[2]:6A7B78C360333BC3BA4801863F43F63F49E9693FD98E64F8EBAC9FF30DC81CA0809F6ACFBCADF750785FF0122D9FB4533D68C04BA1359B8E7FCDE97BD8165A70
+[2024-03-21 15:04:19.439]self_key:(1)F9F74E0838CBD816B4BDE90627915E5648DECB1D8313B24372218C436C8AD83017C9E088BDCF365A94CA2AD3D38FDA84804A865B8D9E3E0579984828CC95D1D9
+[2024-03-21 15:04:19.439]max_size: 100, min_index: 0, max_index: 4, counts: 5[2024-03-21 15:04:19.440]write key to file: 4
+[2024-03-21 15:04:19.440]send 1 packet successfully
+[2024-03-21 15:04:19.440]udp:1 send to 2, type: 5, port: 8888 , tx_pkt_num:3
+[2024-03-21 15:04:19.440]packet type server.
+[2024-03-21 15:04:19.440]send 1 packet successfully
+[2024-03-21 15:04:19.440]udp:1 send to server, type: 5, tx_pkt_num:4
+
+
+[2024-03-21 15:04:23.785]leave group.
+[2024-03-21 15:04:23.785]send 1 packet successfully
+[2024-03-21 15:04:23.785]udp:1 send to 2, type: 2, port: 8888 , tx_pkt_num:5
+[2024-03-21 15:04:23.785]udp:rx_pkt_num:2.
+[2024-03-21 15:04:23.785]udp:tx_pkt_num:6.

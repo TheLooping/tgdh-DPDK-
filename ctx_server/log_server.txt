@@ -1,0 +1,98 @@
+
+
+============================================================================
+============================================================================
+============================================================================
+[2024-03-21 07:03:30.315]start recvfrom
+
+[2024-03-21 07:03:37.301]udp: receive type: 0, rx_pkt_num:0.
+
+
+[2024-03-21 07:03:37.319]parsePacket0.
+[2024-03-21 07:03:37.319]receive udp(type:0): receive a create infomatioin
+[2024-03-21 07:03:37.319]1th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 07:03:37.319]                               0                                
+[2024-03-21 07:03:37.319]                                                                
+[2024-03-21 07:03:37.319]                                                                
+[2024-03-21 07:03:37.319]                                                                
+[2024-03-21 07:03:37.319]                                                                
+[2024-03-21 07:03:37.319]                                                                
+
+[2024-03-21 07:03:48.962]udp: receive type: 6, rx_pkt_num:1.
+
+
+[2024-03-21 07:03:49.027]parsePacket6.
+[2024-03-21 07:03:49.027]receive udp (rx_pkt_num:2 ;type:6): receive a query request
+[2024-03-21 07:03:50.027]send back the 1/7 part of kt_ctx, length:1016
+[2024-03-21 07:03:50.027]send back the 2/7 part of kt_ctx, length:1016
+[2024-03-21 07:03:50.027]send back the 3/7 part of kt_ctx, length:1016
+[2024-03-21 07:03:50.027]send back the 4/7 part of kt_ctx, length:1016
+[2024-03-21 07:03:50.027]send back the 5/7 part of kt_ctx, length:1016
+[2024-03-21 07:03:50.027]send back the 6/7 part of kt_ctx, length:1016
+[2024-03-21 07:03:50.027]send back the 7/7 part of kt_ctx, length:740
+[2024-03-21 07:03:50.027]send back the kt_ctx completed
+
+[2024-03-21 07:03:50.048]udp: receive type: 3, rx_pkt_num:2.
+
+
+[2024-03-21 07:03:50.127]parsePacket3.
+[2024-03-21 07:03:50.127]receive udp (type:3): sponsor to all member, a node join the group
+[2024-03-21 07:03:50.127]2th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 07:03:50.127]                               0                                
+[2024-03-21 07:03:50.127]               1                               2                
+[2024-03-21 07:03:50.127]                                                                
+[2024-03-21 07:03:50.127]                                                                
+[2024-03-21 07:03:50.127]                                                                
+[2024-03-21 07:03:50.127]                                                                
+[2024-03-21 07:03:50.127]nodes BK[1]:CE7C1078E1C2C68092271ECFC96A7C08CB7960D68679014090D2DEBA967900E9C43B0CC694591C50C8FB62FDC3CBA91E7B9A55FBAFA07913C945C91A0D6BD939
+[2024-03-21 07:03:50.127]nodes BK[2]:2F32C8D25E07B2B06061F52C270B798242B7EF53D2BD626BC6A119940CFAA70C41EBB0EE3455C4537706AF965AE5FDB39B80BC77D2959EBFB1D527D2685E5D13
+
+[2024-03-21 07:04:09.453]udp: receive type: 5, rx_pkt_num:3.
+
+
+[2024-03-21 07:04:09.539]parsePacket5.
+[2024-03-21 07:04:09.539]receive udp (type:5): sponsor to all member, a node update its BK
+[2024-03-21 07:04:09.539]3th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 07:04:09.539]                               0                                
+[2024-03-21 07:04:09.539]               1                               2                
+[2024-03-21 07:04:09.539]                                                                
+[2024-03-21 07:04:09.539]                                                                
+[2024-03-21 07:04:09.539]                                                                
+[2024-03-21 07:04:09.539]                                                                
+[2024-03-21 07:04:09.539]nodes BK[1]:CE7C1078E1C2C68092271ECFC96A7C08CB7960D68679014090D2DEBA967900E9C43B0CC694591C50C8FB62FDC3CBA91E7B9A55FBAFA07913C945C91A0D6BD939
+[2024-03-21 07:04:09.539]nodes BK[2]:6A7B78C360333BC3BA4801863F43F63F49E9693FD98E64F8EBAC9FF30DC81CA0809F6ACFBCADF750785FF0122D9FB4533D68C04BA1359B8E7FCDE97BD8165A70
+
+[2024-03-21 07:04:19.442]udp: receive type: 5, rx_pkt_num:4.
+
+
+[2024-03-21 07:04:19.446]parsePacket5.
+[2024-03-21 07:04:19.446]receive udp (type:5): sponsor to all member, a node update its BK
+[2024-03-21 07:04:19.446]4th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 07:04:19.446]                               0                                
+[2024-03-21 07:04:19.446]               1                               2                
+[2024-03-21 07:04:19.446]                                                                
+[2024-03-21 07:04:19.446]                                                                
+[2024-03-21 07:04:19.446]                                                                
+[2024-03-21 07:04:19.446]                                                                
+[2024-03-21 07:04:19.446]nodes BK[1]:769B6E9DF2C862062394CB9C760429387C1929507CE6618D3755051E92B01C8109EFA4AFB101BB53E4CCA5E46622E765EA51EA300A3FC201BDCE81E686A75074
+[2024-03-21 07:04:19.446]nodes BK[2]:6A7B78C360333BC3BA4801863F43F63F49E9693FD98E64F8EBAC9FF30DC81CA0809F6ACFBCADF750785FF0122D9FB4533D68C04BA1359B8E7FCDE97BD8165A70
+
+[2024-03-21 07:04:23.787]udp: receive type: 4, rx_pkt_num:5.
+
+
+[2024-03-21 07:04:23.848]parsePacket4.
+[2024-03-21 07:04:23.848]move sub tree: 2 to 0
+[2024-03-21 07:04:23.848]leftID:2 ;rightID:2 
+[2024-03-21 07:04:23.848]move 2 to 0 
+[2024-03-21 07:04:23.848]leftID:5 ;rightID:6 
+[2024-03-21 07:04:23.848]leftID:11 ;rightID:14 
+[2024-03-21 07:04:23.848]leftID:23 ;rightID:30 
+[2024-03-21 07:04:23.848]leftID:47 ;rightID:62 
+[2024-03-21 07:04:23.849]receive udp (type:4): sponsor to all member, node 1 leave the group
+[2024-03-21 07:04:23.849]5th key tree structure:    (alpha:02; p:D3645ADBA35BF5B849269DD518BDD3AAA70E3A9C54EF5764F2E20AA19A594E8BD8AB40CA17B0FFC8891C7A94884E25AE0529F58E8D8DE2A4C811F02C3E106F43)
+[2024-03-21 07:04:23.849]                               0                                
+[2024-03-21 07:04:23.849]                                                                
+[2024-03-21 07:04:23.849]                                                                
+[2024-03-21 07:04:23.849]                                                                
+[2024-03-21 07:04:23.849]                                                                
+[2024-03-21 07:04:23.849]                                                                
